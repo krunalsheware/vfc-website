@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav>img{
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #fff;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 20px
+    
+}
+
+.list{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.list:hover{
+    color: black;
+    border-bottom: 3px solid red;
+    font-weight: bold;
+    font-size: 22px;
+}
